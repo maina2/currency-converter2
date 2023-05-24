@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./app.css";
+import "./App.css";
 import img from "../images/giphy.gif";
 const App = () => {
   const [countries, setCountries] = useState([
